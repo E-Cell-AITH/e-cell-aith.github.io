@@ -1,0 +1,497 @@
+body{
+	margin: 0;
+	padding: 0;
+	 font-family: Arial, Helvetica, sans-serif;;
+}
+
+
+
+.container-1{
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	animation: animate 16s ease-in-out infinite;
+	background-size: cover;
+	background-color: black;
+	background-attachment: fixed;
+}
+
+.outer{
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	/* background: rgba(0,0,0,0.5) */
+}
+
+.details{
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+#home-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: relative;
+    text-align: center;
+}
+
+#home-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 500;
+}
+
+#home-tablecell #row {
+    position: relative;
+    padding-top: 16.2rem;
+    padding-bottom: 15rem;
+}
+
+#row {
+    width: 94%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#main-heading {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    color: white;
+    border: 1px solid #f1f1f1;
+    border-radius: 25px;
+    text-shadow: 0 0.3rem 0.5rem darkgray;
+    background-color: rgb(0, 0, 0);
+    padding: 5% 0 5% 0;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+}
+
+#quote {
+    text-align: center;
+    margin-top: 2rem;
+    letter-spacing: 0.2rem;
+    color: white;
+    text-shadow: 0 0.3rem 0.5rem gray;
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    border: 1px solid #f1f1f1;
+    border-radius: 25px;
+    padding: 3% 0 3% 0;
+}
+
+
+
+@keyframes animate{
+	0%,100%{
+		background-image: url(images/back-main.jpg);
+	}
+	33%{
+		background-image: url(images/bg3.jpg);
+	}
+	64%{
+		background-image: url(images/bg4.jpg);
+	}
+
+}
+.navbar{
+	background-color:rgba(0,0,0,0.5) !important;
+}
+.image-fluid-logo{
+    height: auto;
+    width: auto;
+    max-height: 80px;
+    max-width: 250px;
+  margin: -20px 0 -20px 0;
+  padding-left: 20%;
+    
+}
+.nav-item{
+	padding-left: 2rem;
+	font-size: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav a {
+	text-transform: uppercase;
+}
+/* .navbar-nav a.nav-link:hover{
+    color: black;
+} */
+
+/* .navbar-dark .navbar-nav .active >.nav-link, .navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show, .navbar-nav .show >.nav-link{
+	color: #fff;
+} */
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+}
+.navbar-nav{
+	text-align: center;
+}
+.nav-link{
+	padding-top: -2rem;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+	color: #fff !important;
+}
+.w-100{
+	height: 100vh;
+}
+
+
+/* About Us */
+.about{
+    margin: 0;
+    padding-bottom: 5%;
+    background-color: rgb(243, 243, 243);
+}
+h1.aboutus{
+    color: rgb(65, 105, 165); 
+    font-family: Noto Sans, sans-serif; 
+    font-size: 7vh;
+     font-weight: 600; 
+     /* line-height: 10.5vh;  */
+    padding-top: 10%;
+    text-align: center;
+}
+.box1{
+    background: rgba(245, 247, 245, 0.9);
+    margin: 5% 10% 10% ;
+    
+    padding: 2% 3% 2% 3%;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px #293747;
+  
+  
+}
+h2.beleif{
+    color: rgb(236, 232, 232); 
+    font-family: Arial , 
+    sans-serif; 
+    font-size: 2rem; 
+     
+    /* margin: 0 0 6rem; */
+    padding: 5% ;
+    padding-bottom: 50%;
+    margin-bottom: 40%;
+}
+
+
+ .vissionbox{
+     padding-top: 5%;
+    padding-bottom: 10%;
+ }   
+h2.vission{
+    padding-left: 5% ;
+}
+ul.vission{
+    padding: 0 ;
+    font-size: 120%;
+    padding: 7%;
+}
+
+/* vission */
+h1.vission{
+    font-size: 400%;
+    padding-bottom: 5%;
+}
+
+
+
+/* AboutUs */
+
+
+/* Teams */
+
+#section-2 {
+    width: 100%;
+}
+
+#team-back {
+    /* width: 100%;
+    height: 100%; */
+    background: rgb(65, 180, 153) url(images/dark.jpg);
+    /* min-height: 800px;
+    position: relative; */
+}
+
+#team-back #overlay {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-color: #131516;
+}
+
+/* .card {
+    position: relative;
+    width: 22rem;
+    perspective: 150rem;
+} */
+
+.card-image {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    background: center no-repeat;
+    background-size: contain;
+}
+
+#card h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+#card h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.front-side {
+    text-align: center;
+    border-radius: 0.3rem;
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+
+.change>.front-side {
+    transform: translateZ(-5rem) translateX(1rem);
+    box-shadow: 0 2rem 4rem #777;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.back-side {
+    position: absolute;
+    top: 0;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    transform: translateZ(-5rem) translateX(1rem);
+    opacity: 0.5;
+    transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+
+.change>.back-side {
+    transform: translateZ(0) translateX(1rem)translateY(-1rem);
+    box-shadow: 0 0.5rem 2rem #aaa;
+    opacity: 0.9;
+}
+
+.link {
+    top: 50%;
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.switch-button {
+    /* position: relative;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); */
+    width: 5rem;
+    height: 4rem;
+    margin-top: 5px;
+    margin-left: 5px;
+    background: transparent;
+    border: ridge gray;
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: medium;
+}
+
+#team-back #main-heading {
+    font-size: 7vh;
+    border: none;
+    padding: 5% 0 0 0;
+    border-radius: 0;
+}
+
+#text {
+    padding-bottom: 3%;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    color: white;
+    text-shadow: 0 0.3rem 0.5rem gray;
+}
+
+
+/* Team end*/
+
+
+
+
+/* footer */
+		/* Icons */
+		/* Footer */
+
+	.footer {
+		position: relative;
+		overflow: hidden;
+		padding: 6em 0 6em 0;
+		background: #2b252c;
+		color: #fff;
+	}
+	
+	.sociallinks{
+		margin: auto;
+		padding-top: 2rem;
+		width: 50%;
+		
+		
+	}
+	hr.grey{
+		
+		border-top: 1px solid rgb(99, 88, 88);
+	}
+	footer.container{
+		width: 80%;
+	}
+	.copyright{
+		color: #fff;
+		font-size: 1rem;
+		text-align: center;
+		padding-top: 2rem;
+	}
+	article.contact{
+		text-align: center;
+	}
+	.divided{
+		padding: 0 2rem 0 2rem;
+	}
+	form{
+		padding: 2rem;
+	}
+	.tweet{
+		padding: 0.5rem 0 0.5rem 0;
+	}
+	/* h1.twitter{
+		margin: 0;
+		font-weight: 50%;
+	}
+     */
+     .image-fluid-collegelogo{
+        max-width: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        
+     }
+     .Institutename{
+         padding: 1rem;
+         font-size: 1.5rem;
+         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+     }
+	.fa {
+		margin: auto;
+		padding: 1rem 2rem 1rem 2rem;
+		font-size: 2rem;
+		
+
+		/* width: 30px; */
+		text-align: center;
+		text-decoration: none;
+		/* border-radius: 50%; */
+	  }
+	  
+	  .fa:hover {
+		  color: crimson;
+	  }
+	  
+	  .fa-facebook {
+		/* background: #3B5998; */
+		color: white;
+		float: left;
+	  }
+	  
+	  .fa-twitter {
+		/* background: #55ACEE; */
+		color: white;
+		float: left;
+	  }
+
+	  .fa-linkedin {
+		/* background: #007bb5; */
+		color: white;
+		float: left;
+	  }
+
+	  .fa-instagram {
+		/* background: #125688; */
+		color: white;
+		float: left;
+	  }
+	  
+	  .fa-pinterest {
+		/* background: #cb2027; */
+		color: white;
+		float: left;
+	  }	
+	  .fa-youtube{
+		  color: white;
+		  float: left;
+	  }
+	  .fa-whatsapp{
+		margin: 0;
+		padding: 0;
+		font-size: 1.5rem;
+	  }
+	  .fa-phone{
+		margin: 0;
+		padding: 0;
+		font-size: 1.5rem;
+	  }
+	  .fa-envelope{
+		font-size: 1.5rem;
+		margin: 0;
+		padding: 0;
+	  }
+
+      /* Responsive */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
