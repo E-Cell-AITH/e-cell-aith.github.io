@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 
 * {
     margin: 0;
@@ -19,12 +19,14 @@
     overflow: hidden;
     padding: 0 20px;
 }
-  
+.inner h1 {
+    font-size: 36px;
+}  
 .border{
     width: 160px;
     height: 5px;
     background: #6ab04c;
-    margin: 26px auto;
+    margin: 20px auto;
 }
   
 .row{
@@ -47,7 +49,7 @@
     height: 100px;
     border-radius: 50%;
 }
-.testimonial .name{
+.testimonial h1{
     font-size: 20px;
     text-transform: uppercase;
     margin: 20px 0;
@@ -91,4 +93,80 @@
     border-radius: 0;
     width: 20px;
     height: 20px;
+}
+
+.about {
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+.about-inside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-inside img {
+    flex: 30%;
+    max-width: 30%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.about-content {
+    flex: 50%;
+    max-width: 60%;
+    box-sizing: border-box;
+    padding: 15px 50px;
+}
+.about h1 {
+    width: max-content;
+    margin: auto;
+    font-size: 52px;
+    text-align: center;
+    color: #333333;
+    padding: 0 0 20px 0;
+    border-bottom: solid 5px #6ab04c;
+}
+.about h4 {
+    margin: auto;
+    font-size: 32px;
+    text-align: center;
+    padding: 20px 0 40px 0;
+    font-family: 'Libre Baskerville', serif;
+    color: #808080;
+}
+.about-content h6 {
+    font-size: 24px;
+}
+.about-content ul {
+    padding: 20px 40px;
+    font-size: 20px;
+    list-style: square;
+}
+.about-content ul li {
+    padding: 5px 0;
+}
+
+
+@media screen and (max-width:960px) {
+    .about-content {
+        flex: 100%;
+        max-width: 80%;
+    }
+    .about-inside img {
+        display: none;
+    }
+}
+  
+@media screen and (max-width:600px) {
+    .about-content {
+        flex: 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
+    .about-content ul {
+        padding: 20px;
+    }
 }
