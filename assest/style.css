@@ -101,25 +101,6 @@
     overflow: hidden;
     padding: 40px 20px;
 }
-
-.about-inside {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.about-inside img {
-    flex: 30%;
-    max-width: 30%;
-    box-sizing: border-box;
-    padding: 15px;
-}
-.about-content {
-    flex: 50%;
-    max-width: 60%;
-    box-sizing: border-box;
-    padding: 15px 50px;
-}
 .about h1 {
     width: max-content;
     margin: auto;
@@ -136,6 +117,23 @@
     padding: 20px 0 40px 0;
     font-family: 'Libre Baskerville', serif;
     color: #808080;
+}
+.about-inside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-inside img {
+    flex: 30%;
+    max-width: 30%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.about-content {
+    flex: 50%;
+    max-width: 60%;
+    box-sizing: border-box;
+    padding: 15px 50px;
 }
 .about-content h6 {
     font-size: 24px;
