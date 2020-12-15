@@ -19,8 +19,6 @@ $(window).scroll(function() {
 var	testim = document.getElementById("testim"),
 	testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
     testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
-    testimLeftArrow = document.getElementById("left-arrow"),
-    testimRightArrow = document.getElementById("right-arrow"),
     testimSpeed = 4500,
     currentSlide = 0,
     currentActive = 0,
@@ -62,14 +60,6 @@ window.onload = function() {
         }, testimSpeed)
     }
 
-    testimLeftArrow.addEventListener("click", function() {
-        playSlide(currentSlide -= 1);
-    })
-
-    testimRightArrow.addEventListener("click", function() {
-        playSlide(currentSlide += 1);
-    })    
-
     for (var l = 0; l < testimDots.length; l++) {
         testimDots[l].addEventListener("click", function() {
             playSlide(currentSlide = testimDots.indexOf(this));
@@ -77,43 +67,4 @@ window.onload = function() {
     }
 
     playSlide(currentSlide);
-
-    // keyboard shortcuts
-    document.addEventListener("keyup", function(e) {
-        switch (e.keyCode) {
-            case 37:
-                testimLeftArrow.click();
-                break;
-                
-            case 39:
-                testimRightArrow.click();
-                break;
-
-            case 39:
-                testimRightArrow.click();
-                break;
-
-            default:
-                break;
-        }
-    })
-		
-	testim.addEventListener("touchstart", function(e) {
-		touchStartPos = e.changedTouches[0].clientX;
-	})
-	
-	testim.addEventListener("touchend", function(e) {
-		touchEndPos = e.changedTouches[0].clientX;
-		touchPosDiff = touchStartPos - touchEndPos;
-		console.log(touchPosDiff);
-		console.log(touchStartPos);	
-		console.log(touchEndPos);		
-		if (touchPosDiff > 0 + ignoreTouch) {
-			testimLeftArrow.click();
-		} else if (touchPosDiff < 0 - ignoreTouch) {
-			testimRightArrow.click();
-		} else {
-			return;
-		}		
-	})
 }
