@@ -83,8 +83,7 @@ html, body {
 }
 
 .nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 0;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
@@ -105,6 +104,12 @@ html, body {
 }
 
 @media screen and (max-width:768px) {
+    .nav {
+        height: 100px;
+        padding: 20px 0;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
     .navTrigger {
         display: block;
     }
@@ -345,7 +350,6 @@ html, body {
 }
 
 .affix {
-    padding: 0;
     background-color: #07031A;
     box-shadow: 0px 4px 16px 1px rgba(255, 255, 255, 0.4);
 }
