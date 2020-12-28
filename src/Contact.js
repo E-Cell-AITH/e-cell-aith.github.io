@@ -1,5 +1,6 @@
 import React from 'react';
 import Mail from "./img/Mail.svg"
+import * as emailjs from 'emailjs-com'
 
 const Card = props => (
     <div className="card">
@@ -8,9 +9,9 @@ const Card = props => (
 );
   
 const Form = props => (
-    <form className="form">{props.children}</form>
+    <form className="form" onSubmit={props.onSubmit}>{props.children}</form>
 );
-  
+
 const TextInput = props => (
     <div className="text-input">
         <label className={(props.focus || props.value !== '') ? 'label-focus' : ''} htmlFor={props.name}>{props.label}</label>
@@ -43,7 +44,7 @@ const TextArea = props => (
   );
   
 const Button = props => (
-    <button className="button">{props.children}</button>
+    <input className="button" type="submit" />
 );
   
 /** Root Component */
@@ -70,27 +71,58 @@ class Contact extends React.Component {
                 focus: false,
             },
         }
+    };
+
+    handleSubmit(e) {
+        e.preventDefault();
+        emailjs.sendForm('service_d4jmvck', 'template_jmpupen', e.target, 'user_rmAxo8a1ArwkHKo8TEags')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        
+        this.setState({
+            name: {
+                name: 'name',
+                label: 'Name',
+                value: '',
+                focus: false,
+            },
+            email: {
+                name: 'email',
+                label: 'Email',
+                value: '',
+                focus: false,
+            },
+            message: {
+                name: 'message',
+                label: 'Message',
+                value: '',
+                focus: false,
+            }, 
+        })
     }
     
     handleFocus(e) {
         const name = e.target.name;
         const state = Object.assign({}, this.state[name]);
         state.focus = true;
-        this.setState({ [name]: state },()=>{console.log(state)});
+        this.setState({ [name]: state });
     }
     
     handleBlur(e) {
         const name = e.target.name;
         const state = Object.assign({}, this.state[name]);
         state.focus = false;
-        this.setState({ [name]: state },()=>{console.log(state)});
+        this.setState({ [name]: state });
     }
     
     handleChange(e) {
         const name = e.target.name;
         const state = Object.assign({}, this.state[name]);
         state.value = e.target.value;
-        this.setState({ [name]: state },()=>{console.log(state)});
+        this.setState({ [name]: state });
     }
     
     render() {
@@ -100,7 +132,7 @@ class Contact extends React.Component {
                 <img src={Mail} alt="Mail" />
                 <Card>
                     <h1>Send us a Message!</h1>
-                    <Form>
+                    <Form onSubmit={this.handleSubmit.bind(this)}>
                         <TextInput
                             {...name}
                             onFocus={this.handleFocus.bind(this)}
