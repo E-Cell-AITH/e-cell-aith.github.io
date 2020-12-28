@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e308134.chunk.css",
-    "main.js": "/static/js/main.d2884e32.chunk.js",
-    "main.js.map": "/static/js/main.d2884e32.chunk.js.map",
+    "main.css": "/static/css/main.45a12934.chunk.css",
+    "main.js": "/static/js/main.c5f34424.chunk.js",
+    "main.js.map": "/static/js/main.c5f34424.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a8eb41e1.js",
     "runtime-main.js.map": "/static/js/runtime-main.a8eb41e1.js.map",
     "static/js/2.3217846b.chunk.js": "/static/js/2.3217846b.chunk.js",
@@ -10,21 +10,32 @@
     "static/js/3.8c743914.chunk.js": "/static/js/3.8c743914.chunk.js",
     "static/js/3.8c743914.chunk.js.map": "/static/js/3.8c743914.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2e308134.chunk.css.map": "/static/css/main.2e308134.chunk.css.map",
+    "static/css/main.45a12934.chunk.css.map": "/static/css/main.45a12934.chunk.css.map",
     "static/js/2.3217846b.chunk.js.LICENSE.txt": "/static/js/2.3217846b.chunk.js.LICENSE.txt",
+    "static/media/Ajay.20ba74d8.jpeg": "/static/media/Ajay.20ba74d8.jpeg",
+    "static/media/Aman_Mishra.3f16a93b.jpg": "/static/media/Aman_Mishra.3f16a93b.jpg",
+    "static/media/Anant_Vaish.5f1dabb7.jpeg": "/static/media/Anant_Vaish.5f1dabb7.jpeg",
     "static/media/Arpit.b471fd82.jpg": "/static/media/Arpit.b471fd82.jpg",
+    "static/media/Ashutosh.02c561d9.jpeg": "/static/media/Ashutosh.02c561d9.jpeg",
     "static/media/Dilnawaz.b85ccc7c.jpg": "/static/media/Dilnawaz.b85ccc7c.jpg",
     "static/media/Mail.3c1b6121.svg": "/static/media/Mail.3c1b6121.svg",
+    "static/media/Mukesh.0397dbd5.jpeg": "/static/media/Mukesh.0397dbd5.jpeg",
+    "static/media/Neha.0a7491e0.jpg": "/static/media/Neha.0a7491e0.jpg",
+    "static/media/Pratyush.7ecddf2c.jpeg": "/static/media/Pratyush.7ecddf2c.jpeg",
+    "static/media/Ritesh.22d3fd46.jpeg": "/static/media/Ritesh.22d3fd46.jpeg",
+    "static/media/Sahebealam.ff517719.jpg": "/static/media/Sahebealam.ff517719.jpg",
+    "static/media/Saloni.522063b8.jpeg": "/static/media/Saloni.522063b8.jpeg",
+    "static/media/Shailza.f8903ff9.jpeg": "/static/media/Shailza.f8903ff9.jpeg",
+    "static/media/Simran.7521e79b.jpeg": "/static/media/Simran.7521e79b.jpeg",
+    "static/media/Vaishali.0af6b76b.jpeg": "/static/media/Vaishali.0af6b76b.jpeg",
     "static/media/App.css": "/static/media/background.a1e463ea.png",
-    "static/media/facebook.b17554bd.svg": "/static/media/facebook.b17554bd.svg",
     "static/media/linkedin.7e0621db.svg": "/static/media/linkedin.7e0621db.svg",
-    "static/media/logo.338671fc.png": "/static/media/logo.338671fc.png",
-    "static/media/p1.f50db3b1.png": "/static/media/p1.f50db3b1.png"
+    "static/media/logo.338671fc.png": "/static/media/logo.338671fc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a8eb41e1.js",
     "static/js/2.3217846b.chunk.js",
-    "static/css/main.2e308134.chunk.css",
-    "static/js/main.d2884e32.chunk.js"
+    "static/css/main.45a12934.chunk.css",
+    "static/js/main.c5f34424.chunk.js"
   ]
 }
