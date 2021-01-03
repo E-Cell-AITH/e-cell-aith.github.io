@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: e-cell-aith.github.io
+Token: 242cfe85ca1c2d180fee437258c23bf3af4bfe67e5f5508967b31f42f1f29ea3
