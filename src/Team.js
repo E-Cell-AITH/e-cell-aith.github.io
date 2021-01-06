@@ -13,6 +13,7 @@ import Sahebealam from "./img/Sahebealam.jpg";
 import Saloni from "./img/Saloni.jpeg";
 import Simran from "./img/Simran.jpeg";
 import Vaishali from "./img/Vaishali.jpeg"
+import Vivek from "./img/Vivek.jpg";
 
 function Team() {
 
@@ -40,6 +41,18 @@ function Team() {
             "pos": "Event Coordinator",
             "linkedin": "https://www.linkedin.com/in/amanmishra2391/",
             "img": Aman,
+        },
+        {
+            "name": "Simran Gupta",
+            "pos": "Web Developer",
+            "linkedin": "https://www.linkedin.com/in/-simran-gupta/",
+            "img": Simran,
+        },
+        {
+            "name": "Vivek Chauhan",
+            "pos": "Web Developer",
+            "linkedin": "https://www.linkedin.com/in/itsvivekchauhan/",
+            "img": Vivek,
         },
         {
             "name": "Ajay Gupta",
@@ -82,12 +95,6 @@ function Team() {
             "pos": "Marketing",
             "linkedin": "https://www.linkedin.com/in/vaishali-mishra-3135b91a3/",
             "img": Vaishali,
-        },
-        {
-            "name": "Simran Gupta",
-            "pos": "Web Developer",
-            "linkedin": "https://www.linkedin.com/in/-simran-gupta/",
-            "img": Simran,
         },
         {
             "name": "Shailza Tiwari",

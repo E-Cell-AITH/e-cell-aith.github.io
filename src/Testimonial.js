@@ -16,7 +16,7 @@ function Testimonial() {
         {
             id: 2,
             "name": "Arpit Vijay",
-            "about": "Lorem ipsum dolor sit amet,  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+            "about": "Students should be empowered to become self sufficient because life has many other exams apart from NEET ,JEE and others . Real time challenges are a key to trigger the thinking process between what we think we can do and what world wants us to become.",
             "des": "Founder & CEO of YOUU, Member of International Youth Exchange, Past volunteer of Indian Red Cross Society and The JAX Foundation",
             "img": arpit,
         },

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link, Switch, useLocation, withRouter }
 import Testmonial from "./Testimonial";
 import Team from './Team';
 import Contact from "./Contact"
+// import Footer from "./Footer";
 import logo from "./img/logo.png"
 
 function _ScrollToTop(props) {
@@ -71,6 +72,7 @@ function Home() {
             <AboutUs />
             <Testmonial />
             <Contact />
+            {/* <Footer /> */}
         </>
     );
 }
