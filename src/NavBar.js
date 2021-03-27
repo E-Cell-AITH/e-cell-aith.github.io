@@ -34,6 +34,9 @@ function NavBar() {
     const toogleClass = () => {
         setActive(!active);
     }
+    const clickNavItem = () => {
+        setActive(!active);
+    }
 
     return (
         <Router>
@@ -45,7 +48,7 @@ function NavBar() {
                         </div>
                         <div id="mainListDiv" className={"main_list " + (active ? "show_list": "")}>
                             <ul className="navlinks">
-                                <li><Link to="/team">Team</Link></li>
+                                <li><Link to="/team" onClick={clickNavItem}>Team</Link></li>
                             </ul>
                         </div>
                         <span className={"navTrigger "+ (active? "active": "")} onClick={toogleClass} >
