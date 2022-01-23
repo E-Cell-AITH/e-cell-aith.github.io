@@ -1,19 +1,19 @@
 import React from "react";
 
 function Footer() {
-    return(
-        <div className="footer">
-            <div>Collge</div>
-            <div>
-                <ul>
-                    <li>faceBook</li>
-                    <li>Insta</li>
-                    <li>LinkedIn</li>
-                    <li>Twitter</li>
-                </ul>
-            </div>
-        </div>
-    );
+  return (
+    <div className="footer">
+      <div>Collge</div>
+      <div>
+        <ul>
+          <li>faceBook</li>
+          <li>Insta</li>
+          <li>LinkedIn</li>
+          <li>Twitter</li>
+        </ul>
+      </div>
+    </div>
+  );
 }
 
 export default Footer;
